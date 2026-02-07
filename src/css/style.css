@@ -58,6 +58,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
   margin-bottom: var(--spacing-sm);
   letter-spacing: 0.01em;
+  hyphens: auto;
+  overflow-wrap: break-word;
 }
 
 h1 {
@@ -488,7 +490,7 @@ a:hover {
   }
   
   .nav-links {
-    gap: var(--spacing-sm);
+    display: none; /* Navigation auf Mobile ausblenden */
   }
   
   .nav-link {
