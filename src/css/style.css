@@ -1,14 +1,19 @@
-/* Design System - Zeitlos & Elegant */
+/* Design System - Hochzeitsfarben */
 :root {
-  /* Farben - Neutral mit Gold-Akzent */
-  --primary: #2A2A2A;       /* Fast-Schwarz für Text */
-  --secondary: #3A3A3A;     /* Dunkelgrau für Kontraste */
-  --accent: #C5A572;        /* Elegantes Gold - universell */
-  --accent-gray: #6B6B6B;   /* Mittelgrau */
-  --background: #FFFFFF;    /* Reines Weiß */
-  --text: #2A2A2A;          /* Fast-Schwarz */
-  --text-light: #6B6B6B;    /* Mittelgrau für sekundäre Texte */
-  --border: #E5E5E5;        /* Helles Grau */
+  /* Farben - Hochzeitsfarbpalette */
+  --primary: #4A724D;       /* Dunkelgrün für Text */
+  --secondary: #4A724D;     /* Dunkelgrün für Kontraste */
+  --accent: #4A724D;        /* Dunkelgrün - Hauptakzent (gut lesbar) */
+  --accent-terracotta: #C85A3E; /* Kräftiges Terrakotta - für Überschriften */
+  --accent-light-green: #BFDC80; /* Helles Grün - für Hintergründe */
+  --accent-mauve: #8B7580;  /* Dunkleres Mauve/Rosa - sanfte Akzente */
+  --accent-mauve-light: #B9A2A8;  /* Helles Mauve - sanfte Akzente */
+  --accent-peach: #EEA290;  /* Peach - warme Akzente */
+  --background: #E7E4D9;    /* Helles Beige/Creme */
+  --background-white: #FFFFFF; /* Reines Weiß für Karten */
+  --text: #4A724D;          /* Dunkelgrün für Lesbarkeit */
+  --text-light: #6B6B6B;    /* Grau für sekundäre Texte */
+  --border: #D0CEC3;        /* Gedämpftes Beige für Borders */
   
   /* Typography - Durchgängig Serif für Eleganz */
   --font-heading: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
@@ -65,6 +70,7 @@ h2 {
   font-size: clamp(2.25rem, 4.5vw, 3.5rem);
   font-weight: 400;
   letter-spacing: 0.01em;
+  color: var(--accent-terracotta);
 }
 
 h3 {
@@ -174,6 +180,7 @@ a:hover {
 .hero-title {
   margin-top: var(--spacing-md);
   margin-bottom: var(--spacing-md);
+  color: var(--accent-terracotta);
   opacity: 0;
   animation: fadeInUp 1s ease forwards;
 }
@@ -188,7 +195,7 @@ a:hover {
 
 .hero-date {
   font-size: clamp(1rem, 1.5vw, 1.2rem);
-  color: var(--accent);
+  color: var(--accent-peach);
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;

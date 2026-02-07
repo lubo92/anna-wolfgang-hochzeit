@@ -47,7 +47,7 @@
 ## Kosten
 
 | Service | Kosten |
-|---------|--------|
+| --------- | -------- |
 | GitHub Pages | 0€ |
 | Tally.so | 0€ |
 | Cloudinary | 0€ |
